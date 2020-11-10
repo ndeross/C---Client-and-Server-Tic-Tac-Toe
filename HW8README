@@ -1,0 +1,28 @@
+// Nicholas DeRoss
+// Systems Programming 
+// Mr. Molnar 
+// 4/26/2020 
+
+
+
+This program acts as a chat room, with a client and a server 
+
+The server holds the chatroom, and the clients connect
+
+The defualt configuration is for no more than 4 clients, but the number can be edited in the top of 
+the server program. 
+
+To compile: 
+
+make client server 
+
+
+
+to run: 
+
+run server first, then client to connect 
+
+After initial "welcome to server message" you can type out any message and the username you choose 
+will be added to your message and sent to all other clients 
+
+to quit, type "quit" as your message, the server can be exited using the standard ctrl-z 
